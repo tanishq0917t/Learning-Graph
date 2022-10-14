@@ -1,6 +1,3 @@
-/*
-
-*/
 #include<bits/stdc++.h>
 using namespace std;
 int main()
@@ -24,3 +21,31 @@ int main()
     }
     return 0;
 }
+/*
+This graph is 0-Based Indexed Undirected Graph
+Lets take an Example
+
+    0------1
+    |      |
+    3------2
+     \    /
+        4
+        
+So for Node-0
+ 0->1
+ 0->3
+So for Node-1
+ 1->2
+ 1->0
+So for Node-2
+ 2->1
+ 2->3
+ 2->4
+So for Node-3
+ 3->0
+ 3->2
+ 3->4
+So for Node-4
+ 4->2
+ 4->3
+*/
